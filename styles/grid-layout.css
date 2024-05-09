@@ -1,0 +1,47 @@
+.head-section{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    background-color: hotpink;
+    margin: 10px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main{
+    background-color: bisque;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+.sidebar p{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    background-color: hotpink;
+    gap: 10px;
+    height: 120px;
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+.footer-section{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+}
